@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "bls",
+	"version": "${version}",
+	"name": "Borderline Stupid",
+	"description": "Random events happen every 25 minutes. Chaos ensues. (Best played in sessions)",
+	"authors": [
+		"Placeholder Name: Code, RedstoneLamp08: Textures"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-SA 4.0",
+	"icon": "assets/bls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mosa.bls.BorderlineStupid"
+		],
+		"client": [
+			"mosa.bls.BorderlineStupidClient"
+		]
+	},
+	"mixins": [
+		"bls.mixins.json",
+		{
+			"config": "bls.client.mixins.json",
+			"environment": "*"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
