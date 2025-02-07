@@ -5,11 +5,11 @@
 	"name": "Borderline Stupid",
 	"description": "Random events happen every 25 minutes. Chaos ensues. (Best played in sessions)",
 	"authors": [
-		"Placeholder Name: Code, RedstoneLamp08: Textures"
+		"PokePuff05: Code, RedstoneLamp08: Textures"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/PokePuff05/Borderline-Stupid",
+		"sources": "https://github.com/PokePuff05/Borderline-Stupid"
 	},
 	"license": "CC BY-SA 4.0",
 	"icon": "assets/bls/icon.png",

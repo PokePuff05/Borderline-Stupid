@@ -1,7 +1,5 @@
 package mosa.bls;
 
-import mosa.bls.block.BorderlineBlocks;
-import mosa.bls.item.BorderlineItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,7 +18,5 @@ public class BorderlineStupid implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		BorderlineItems.initialize();
-		BorderlineBlocks.initialize();
 	}
 }
